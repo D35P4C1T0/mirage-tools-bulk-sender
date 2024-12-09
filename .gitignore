@@ -1,0 +1,36 @@
+# Go build artifacts
+*.exe
+*.exe~
+*.out
+*.test
+*.dll
+*.so
+*.dylib
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Dependency directories
+/vendor/
+
+# IDE specific files
+.idea/
+
+# GoLand specific
+.idea/*
+!.idea/workspace.xml
+!.idea/tasks.xml
+!.idea/dictionaries
+!.idea/codeStyles
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Coverage output
+*.coverprofile
+
